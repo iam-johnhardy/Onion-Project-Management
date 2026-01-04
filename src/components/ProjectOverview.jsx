@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Calendar, UsersIcon, FolderOpen } from "lucide-react";
+import { ArrowRight, Calendar, Users as UsersIcon, FolderOpen } from "lucide-react";
 import { format } from "date-fns";
 import { useSelector } from "react-redux";
 import CreateProjectDialog from "./CreateProjectDialog";

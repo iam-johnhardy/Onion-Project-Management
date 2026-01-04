@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import MyTasksSidebar from './MyTasksSidebar'
 import ProjectSidebar from './ProjectsSidebar'
 import WorkspaceDropdown from './WorkspaceDropdown'
-import { FolderOpenIcon, LayoutDashboardIcon, SettingsIcon, UsersIcon } from 'lucide-react'
+import { FolderOpen as FolderOpenIcon, LayoutDashboard as LayoutDashboardIcon, Settings as SettingsIcon, Users as UsersIcon } from 'lucide-react'
 
 const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { UsersIcon, Search, UserPlus, Shield, Activity } from "lucide-react";
+import { Users as UsersIcon, Search, UserPlus, Shield } from "lucide-react";
+import Activity from "lucide-react/dist/esm/icons/activity";
 import InviteMemberDialog from "../components/InviteMemberDialog";
 import { useSelector } from "react-redux";
 

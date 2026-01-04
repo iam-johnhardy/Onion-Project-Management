@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { CalendarIcon, MessageCircle, PenIcon } from "lucide-react";
+import { Calendar as CalendarIcon, MessageCircle, Pen as PenIcon } from "lucide-react";
 import { assets } from "../assets/assets";
 
 const TaskDetails = () => {

@@ -1,7 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { ArrowLeftIcon, PlusIcon, SettingsIcon, BarChart3Icon, CalendarIcon, FileStackIcon, ZapIcon } from "lucide-react";
+import { ArrowLeft as ArrowLeftIcon, Plus as PlusIcon, Settings as SettingsIcon, BarChart3 as BarChart3Icon, Calendar as CalendarIcon, FileStack as FileStackIcon, Zap as ZapIcon } from "lucide-react";
 import ProjectSettings from "../components/ProjectSettings";
 import CreateTaskDialog from "../components/CreateTaskDialog";
 

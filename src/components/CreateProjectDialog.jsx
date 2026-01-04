@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { XIcon } from "lucide-react";
+import { X as XIcon } from "lucide-react";
 import { useSelector } from "react-redux";
 
 const CreateProjectDialog = ({ isDialogOpen, setIsDialogOpen }) => {
